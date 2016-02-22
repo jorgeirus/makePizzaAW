@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5E0AC11C7A31840023E505 /* CuartaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E0AC01C7A31840023E505 /* CuartaVista.swift */; };
+		3A5E0AC31C7A40810023E505 /* ingrediente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E0AC21C7A40810023E505 /* ingrediente.swift */; };
+		3A5E0AC51C7A69B20023E505 /* valores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E0AC41C7A69B20023E505 /* valores.swift */; };
+		3A5E0AC91C7A9B750023E505 /* resultadoVistas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E0AC81C7A9B750023E505 /* resultadoVistas.swift */; };
 		3AF1C58D1C779C4A00AC1913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C58C1C779C4A00AC1913 /* AppDelegate.swift */; };
 		3AF1C58F1C779C4A00AC1913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C58E1C779C4A00AC1913 /* ViewController.swift */; };
 		3AF1C5921C779C4A00AC1913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF1C5901C779C4A00AC1913 /* Main.storyboard */; };
@@ -21,6 +25,9 @@
 		3AF1C5B61C779C4B00AC1913 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C5B51C779C4B00AC1913 /* NotificationController.swift */; };
 		3AF1C5B81C779C4B00AC1913 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C5B71C779C4B00AC1913 /* GlanceController.swift */; };
 		3AF1C5BA1C779C4B00AC1913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF1C5B91C779C4B00AC1913 /* Assets.xcassets */; };
+		3AF1C5CA1C77CD3C00AC1913 /* primeraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C5C91C77CD3C00AC1913 /* primeraVista.swift */; };
+		3AF1C5CC1C77D3F300AC1913 /* segundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C5CB1C77D3F300AC1913 /* segundaVista.swift */; };
+		3AF1C5CE1C77D6CE00AC1913 /* terceraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF1C5CD1C77D6CE00AC1913 /* terceraVista.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A5E0AC01C7A31840023E505 /* CuartaVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaVista.swift; sourceTree = "<group>"; };
+		3A5E0AC21C7A40810023E505 /* ingrediente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingrediente.swift; sourceTree = "<group>"; };
+		3A5E0AC41C7A69B20023E505 /* valores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = valores.swift; path = "../makePizzaAW WatchKit App/valores.swift"; sourceTree = "<group>"; };
+		3A5E0AC81C7A9B750023E505 /* resultadoVistas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultadoVistas.swift; sourceTree = "<group>"; };
 		3AF1C5891C779C4A00AC1913 /* makePizzaAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makePizzaAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF1C58C1C779C4A00AC1913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AF1C58E1C779C4A00AC1913 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +96,9 @@
 		3AF1C5B71C779C4B00AC1913 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		3AF1C5B91C779C4B00AC1913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF1C5BB1C779C4B00AC1913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF1C5C91C77CD3C00AC1913 /* primeraVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = primeraVista.swift; sourceTree = "<group>"; };
+		3AF1C5CB1C77D3F300AC1913 /* segundaVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segundaVista.swift; sourceTree = "<group>"; };
+		3AF1C5CD1C77D6CE00AC1913 /* terceraVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = terceraVista.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +172,13 @@
 				3AF1C5B91C779C4B00AC1913 /* Assets.xcassets */,
 				3AF1C5BB1C779C4B00AC1913 /* Info.plist */,
 				3AF1C5AF1C779C4B00AC1913 /* Supporting Files */,
+				3AF1C5C91C77CD3C00AC1913 /* primeraVista.swift */,
+				3A5E0AC41C7A69B20023E505 /* valores.swift */,
+				3AF1C5CB1C77D3F300AC1913 /* segundaVista.swift */,
+				3AF1C5CD1C77D6CE00AC1913 /* terceraVista.swift */,
+				3A5E0AC01C7A31840023E505 /* CuartaVista.swift */,
+				3A5E0AC21C7A40810023E505 /* ingrediente.swift */,
+				3A5E0AC81C7A9B750023E505 /* resultadoVistas.swift */,
 			);
 			path = "makePizzaAW WatchKit Extension";
 			sourceTree = "<group>";
@@ -306,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF1C58F1C779C4A00AC1913 /* ViewController.swift in Sources */,
+				3A5E0AC51C7A69B20023E505 /* valores.swift in Sources */,
 				3AF1C58D1C779C4A00AC1913 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,10 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF1C5CA1C77CD3C00AC1913 /* primeraVista.swift in Sources */,
 				3AF1C5B61C779C4B00AC1913 /* NotificationController.swift in Sources */,
 				3AF1C5B41C779C4B00AC1913 /* ExtensionDelegate.swift in Sources */,
+				3A5E0AC11C7A31840023E505 /* CuartaVista.swift in Sources */,
 				3AF1C5B21C779C4B00AC1913 /* InterfaceController.swift in Sources */,
+				3AF1C5CE1C77D6CE00AC1913 /* terceraVista.swift in Sources */,
 				3AF1C5B81C779C4B00AC1913 /* GlanceController.swift in Sources */,
+				3AF1C5CC1C77D3F300AC1913 /* segundaVista.swift in Sources */,
+				3A5E0AC31C7A40810023E505 /* ingrediente.swift in Sources */,
+				3A5E0AC91C7A9B750023E505 /* resultadoVistas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +576,7 @@
 				3AF1C5C01C779C4B00AC1913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AF1C5C21C779C4B00AC1913 /* Build configuration list for PBXNativeTarget "makePizzaAW WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +585,7 @@
 				3AF1C5C41C779C4B00AC1913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AF1C5C61C779C4B00AC1913 /* Build configuration list for PBXNativeTarget "makePizzaAW" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +594,7 @@
 				3AF1C5C81C779C4B00AC1913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
